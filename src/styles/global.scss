@@ -1,0 +1,46 @@
+@import "./login/index";
+@import "./register/index";
+@import "./home/index";
+@import "./profile/index";
+
+* {
+    margin    : 0px;
+    padding   : 0px;
+    box-sizing: border-box;
+}
+
+
+$bgcolor   :#6302dd;
+$textcolor :#102cb7c8;
+$whitecolor:#ffff;
+
+
+:root {
+    --background-color:#{$bgcolor};
+    --text-color      :#{$textcolor};
+    --color           :#{$whitecolor};
+}
+
+// loader
+
+.loader_wrapper {
+    display         : block;
+    position        : absolute;
+    height          : 100vh;
+    width           : 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index         : 11;
+    overflow        : hidden;
+
+    .loader_box {
+        display        : flex;
+        justify-content: center;
+        height         : 100vh;
+        width          : 100%;
+        align-items    : center;
+
+    }
+}
+
+
+// loader

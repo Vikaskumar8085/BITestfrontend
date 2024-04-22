@@ -1,0 +1,51 @@
+.register_container {
+    height          : 100vh;
+    width           : 100%;
+    background-color: var(--background-color);
+    position        : relative;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+
+    .register_row {
+        width           : 500px;
+        border-radius   : 4px;
+        padding         : 20px;
+        background-color: rgb(255, 255, 255);
+        box-shadow      : 0px 1px 50px 0px rgba(0, 0, 0, 0.4);
+
+        // register header
+        .register_head {
+            width   : 100%;
+            position: relative;
+            display : block;
+            padding : 10px 0px;
+
+            h2 {
+                text-align    : center;
+                text-transform: uppercase;
+                font-size     : 1.6rem;
+                color         : var(--text-color);
+            }
+        }
+
+        // footer 
+        .register_footer {
+            position: relative;
+            display : block;
+
+            h5 {
+                text-align    : start;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                font-weight   : 400;
+                font-family   : 'Times New Roman', Times, serif;
+
+                a {
+                    text-decoration: none;
+                }
+            }
+
+        }
+    }
+}

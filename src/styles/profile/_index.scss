@@ -1,0 +1,64 @@
+.profile_wrapper {
+    display  : block;
+    position : absolute;
+    top      : 50%;
+    left     : 50%;
+    transform: translate(-50%, -50%);
+    overflow : hidden;
+
+    .Card_wrapper {
+        background-color: var(--background-color);
+        padding         : 20px;
+        display         : block;
+        overflow        : hidden;
+        position        : relative;
+        border-radius   : 4px;
+
+        .Card_title {
+            padding: 10px 0px;
+            display: block;
+
+            h1 {
+                font-size      : 1.5em;
+                font-weight    : 600;
+                text-decoration: none;
+                text-transform : uppercase;
+                color          : var(--color);
+                text-align     : center;
+
+            }
+        }
+
+        .Card_body {
+            display : block;
+            overflow: hidden;
+            padding : 20px 0px;
+
+            .Card_data {
+                display        : flex;
+                justify-content: space-between;
+                align-items    : center;
+
+                p {
+                    letter-spacing : 1px;
+                    padding        : 20px 0px;
+                    font-family    : 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    border-bottom  : 1px solid var(--color);
+                    text-transform : uppercase;
+                    color          : var(--color);
+                    display        : flex;
+                    width          : 100%;
+                    justify-content: start;
+                    align-items    : center;
+                    margin         : 0px 20px;
+
+
+
+
+                }
+            }
+        }
+
+    }
+
+}

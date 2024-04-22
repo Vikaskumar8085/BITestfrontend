@@ -1,0 +1,90 @@
+.rightgroup {
+    width           : 80%;
+    padding         : 20px;
+    overflow        : auto;
+    border-radius   : 4px;
+    background-color: var(--color);
+    margin          : 10px;
+    border          : 1px solid rgba(255, 255, 255, 0.1);
+
+    // right group head
+    .rightgroup_head {
+        display        : flex;
+        justify-content: space-between;
+        align-items    : center;
+        padding        : 20px;
+        border-bottom  : 1px solid var(--background-color);
+
+        .head_titile {
+            h1 {
+                color         : var(--background-color);
+                font-size     : 1.5em;
+                font-family   : 'Times New Roman', Times, serif;
+                letter-spacing: 1px;
+                font-weight   : 400;
+
+            }
+        }
+
+        // rightgroup_head_wrapper
+        .rightgroup_head_wrapper {
+            display : block;
+            position: relative;
+            padding : 0px 20px;
+
+            .Modela {
+                background-color: yellow;
+            }
+
+            button {
+                margin: 0px 10px;
+            }
+
+            a {
+
+                margin         : 0px 10px;
+                text-align     : center;
+                font-weight    : 400;
+                color          : hsla(0, 0%, 0%, 0.7);
+                text-decoration: none;
+
+                &:hover {
+                    color: var(--background-color);
+
+                }
+
+
+
+            }
+
+            // .Member-btn
+
+
+        }
+    }
+
+    // right group head
+
+
+    // rightgroup_box
+    .rightgroup_box {
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+        flex-direction : column;
+
+        h1 {
+            color          : rgba(128, 128, 128, 0.4);
+            font-weight    : 400;
+            font-size      : 1.3em;
+            text-align     : center;
+            text-decoration: none;
+            font-style     : italic;
+            text-transform : capitalize;
+        }
+
+    }
+
+
+
+}
